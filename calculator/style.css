@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calci{
+    width: 25%;
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.7);
+}
+input{
+    width: 92%;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    color: black;
+    background-color: green;
+    cursor: pointer;
+}
+input::placeholder{
+    color: #fff;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+button:hover{
+    background-color: aqua;
+}
+.operator:hover{
+    background-color: aqua;
+    color: #fff;
+}
+.equalbtn{
+    background-color: aqua;
+    width: 145px;
+}
+.equalbtn:hover{
+    background-color: aquamarine;
+}
+.operator{
+    color: aqua;
+}
+header{
+    background-color: #0077fff6;
+    color: black;
+    padding: 25px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
